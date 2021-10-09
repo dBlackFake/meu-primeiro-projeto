@@ -1,0 +1,209 @@
+header {
+    background-color: #000000;
+}
+#sub-princ {
+    background: linear-gradient(#000000 40%, #ffffff);
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.caixa h2 {
+
+    position: absolute;
+    left: 225px;
+    top: 280px;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic; /* estilo da letra, no caso italico*/
+
+}
+nav {
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    /*topo direita baixo esquerda*/
+}
+nav a {
+
+    font-weight: bold; /*deixar em negrito*/
+    color: white;
+    text-transform: uppercase; /*deixar as letras todas maisculas*/
+    font-size: 22px;
+    text-decoration: none; /* serve para tirar aquele roxo ridiculo, mas você tem que escolher a proxima cor*/
+    font-family: 'Abel', sans-serif;
+}
+
+nav a:hover {
+    border-bottom: 5px dotted white ;
+    /* Não pode esquecer de colocar o tamanho, tipo e cor que você qeur!*/
+   
+}
+
+.produtos {
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+ .produtos li {
+ 
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* tamanho, tipo e cor*/
+    border-radius: 10px;
+    /*pra arredondar as bordas*/
+    background-color: whitesmoke;
+    cursor: pointer;
+    opacity: 0.7;
+ }
+
+ .produtos a {
+     color: black;
+    text-decoration: none;
+ }
+
+ .produtos li:hover {
+    background-color: #FFFFFF;
+    transform: scale(1.1) rotate(2deg);
+    opacity: 1;
+    transition: 400ms;
+ }
+
+ /*.produtos li:hover h2 {
+    font-size: 40px;
+    font-style: italic;
+ }*/
+ .produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ .precoP {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 0;
+ }
+
+ .produtoD {
+    font-size: 17px;
+ }
+
+ footer {
+    
+     text-align: center;
+     background: linear-gradient(#FEFEFE, #000000 55%);
+     padding: 40px;
+     position: relative;
+ }
+
+.tata {
+    color: white;
+    position: relative;
+    top: 0;
+}
+
+.tata a {
+    color: white;
+    text-decoration: none;
+}
+/*esse "tata a" serve pra editar o link que eu deixei no Thaís é linda, ai nao fica aquele roxo ridiculo e nem o blgh embaixo*/
+
+main {
+
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+
+    margin: 40px 0;
+}
+
+form label, form legend {
+
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox {
+    margin: 20px 0;
+}
+.enviar {
+
+    width: 40%;
+    padding: 15px 0;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 2s;
+    cursor: pointer;/*para quando o cursor tiver em cima aparecer a mãozinha com o indicador*/
+
+}
+.enviar:hover {
+
+    background-color: red;
+    color: whitesmoke;
+    /*transform: scale(1.2);
+    transform: rotate(5deg);
+    se ficar assim a "scale" vai ser ignorada*/
+    transform: rotate(5deg) scale(1.2);
+    /* Por isso deixamos assim, uma depois da outra*/
+    
+}
+
+table {
+
+    margin: 20px 0 40px;
+
+}
+
+thead {
+
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px ;
+}
+
+@media  screen and (max-width: 480px) {
+
+    .caixa, .principal {
+        width: auto;
+    }
+    header {
+        text-align: center;
+    }
+    .nav {
+        position: static
+    }
+    .apresentacao li {
+        width: 46%;
+        padding: 120px 30px;
+    }
+}

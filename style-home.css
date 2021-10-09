@@ -1,0 +1,222 @@
+.titulo-princ {
+
+    padding-left: 20px;
+}
+body {
+   /* background-color: black; */
+    background: linear-gradient(#000000 15%, #ffffff 30%) ;
+    
+}
+
+#banner {
+    width: 56%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+.titulo-principal {
+	text-align: center;
+	font-size: 2em; /* esse 'em' é o valor padrao de px, tipo 15px, ai com 2 em o titulo terá 30px tlgd*/
+	margin: 0 0 1em;
+	clear: left;
+}
+.principal {
+	padding: 2em 0;
+	/*background-color: #fefefe;*/
+	width: 940px;
+	margin: 0 auto;
+}
+.principal p {
+	margin: 0 0 1em;
+}
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+.utensilios {
+	width: 140px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.h1-venha {
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+.principal h2 {
+    padding: 0 0 30px 0;
+}
+.titulo-cent {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Abel', sans-serif;
+} 
+#veja-tbm {
+    margin: 0 0 40px 0;
+}
+
+.apresentacao {
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 80px 0; 
+}
+
+.titulos {
+    position: relative;
+    top: -60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+}
+.sabermais {
+    position: relative;
+    top: -50px;
+    text-decoration: none;
+    color: black;
+}
+
+.imgs {
+
+    width: 95%;
+}
+
+.apresentacao li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 30px 1.5%;
+    padding: 110px 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* tamanho, tipo e cor*/
+    border-radius: 30px;
+    /*pra arredondar as bordas*/
+    background-color: whitesmoke;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.apresentacao li:hover {
+    background-color: #FFFFFF;
+    transform: scale(1.1) rotate(2deg);
+    opacity: 1;
+    transition: 400ms;
+}
+p {
+    position: relative;
+    top: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    
+}
+
+#missao {
+
+    font-size: 20px
+}
+
+em strong {
+
+    color: red;
+}
+
+.principal {
+    padding: 30px;
+    position: relative;
+    top: -20px;
+    left: 12px;
+    width: 75%;
+}
+
+.beneficios {
+
+   /*background-color: white;*/
+    padding: 20px;
+}
+.beneficios a {
+    text-decoration: none;
+    border: none;
+}
+.video {
+    width: 100%;
+    margin: 70px 10px -20px -60px;
+    /*background: linear-gradient(#FEFEFE, #000000);*/
+    position: relative;
+    text-align: center;
+    padding: 40px;
+}
+.video h3 {
+    margin: 10px 0 0 0;
+}
+.itens {
+
+    position: relative;
+    top: 160px;
+    font-style: italic;
+    margin: 10px 0 0 0;
+    text-transform: uppercase;
+    background: linear-gradient(#FEFEFE, #000000);
+}
+ul {
+
+    display: inline;
+    position: relative;
+    top: 20px;
+  /*  background: linear-gradient(#FEFEFE, #000000);
+    */
+}
+
+#bene {
+
+    width: 50%;
+    position: relative;
+    left: 45%;
+    top: -60px;
+    /*background: linear-gradient(#FEFEFE, #000000);*/
+}
+@media  screen and (max-width: 480px) {
+
+    .caixa, .principal, .beneficios {
+        width: auto;
+    }
+    .h1 {
+        text-align: center;
+    }
+    .nav {
+        position: static
+    }
+    .apresentacao li {
+        width: 46%;
+        padding: 120px 10px;
+        background-color: mediumpurple;
+    }
+    .imgs {
+        width: 100%;
+    }
+    ul {
+        top: 122px;
+        margin-right: 45px;
+    }
+    .video {
+        width: 100%;
+    }
+    
+}
